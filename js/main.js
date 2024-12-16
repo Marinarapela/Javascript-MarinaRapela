@@ -30,7 +30,7 @@ function agregarAlCarrito(productoId) {
         }
     }
     if (!encontrado) {
-        console.log("No pudimos encontrar el producto.");
+        alert("No pudimos encontrar el producto.");
     }
 }
 
